@@ -1,9 +1,9 @@
 package entites;
 
 public class AdressePostale {
-    int numeroRue = 0 ;
-    String libelleRue = "";
-    int codePostal = 0;
+    int numeroRue ;
+    String libelleRue ;
+    int codePostal;
     String ville ;
 
     public AdressePostale (int numeroRue, String libelleRue, int codePostal, String ville)
@@ -13,5 +13,15 @@ public class AdressePostale {
         this.codePostal = codePostal;
         this.ville = ville ;
 
+    }
+
+    @Override
+    public String toString() {
+        return "AdressePostale{" +
+                "numeroRue=" + numeroRue +
+                ", libelleRue='" + libelleRue + '\'' +
+                ", codePostal=" + codePostal +
+                ", ville='" + ville + '\'' +
+                '}';
     }
 }
