@@ -16,6 +16,9 @@ public class TestPersonne {
         pers1.setModifierAdresse(adr2);
         System.out.println(pers1);
 
+
+        System.out.println();
+
     }
 
 }
