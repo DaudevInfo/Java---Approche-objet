@@ -12,7 +12,7 @@ public abstract class Operations {
     }
 
     public String toString() {
-        return dateOperation + " " + montantOperation;
+        return getType()+ "\t"+ dateOperation + " " + montantOperation;
     }
 
     public abstract String getType();

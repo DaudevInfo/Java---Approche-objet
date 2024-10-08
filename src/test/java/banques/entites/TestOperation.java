@@ -8,7 +8,7 @@ public class TestOperation {
                 new Debit("2/2/2000", 500)};
 
         for( Operations op : tabOper)  {
-            System.out.println(op + " "+ op.getType());
+            System.out.println( op  );
         }
         System.out.println("montant total : "+ Operations.totalOperations);
     }
