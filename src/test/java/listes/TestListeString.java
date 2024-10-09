@@ -22,6 +22,7 @@ public class TestListeString {
         }
         System.out.println(tabVille);
 
+        // Correctif j'aurais pu mettre ville.StartsWith()
         Iterator <String> iterVille = tabVille.iterator();
         while (iterVille.hasNext()) {
             String ville = iterVille.next();
