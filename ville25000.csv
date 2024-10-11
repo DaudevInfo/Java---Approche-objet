@@ -1,361 +1,732 @@
 Nom de la ville , Code Département, nom Region, Population totale
-Bourg-en-Bresse01Auvergne-Rhône-Alpes41365.0
-Laon02Hauts-de-France25193.0
-Saint-Quentin02Hauts-de-France54443.0
-Soissons02Hauts-de-France28466.0
-Montluçon03Auvergne-Rhône-Alpes36147.0
-Gap05Provence-Alpes-Côte d'Azur40805.0
-Antibes06Provence-Alpes-Côte d'Azur73798.0
-Cagnes-sur-Mer06Provence-Alpes-Côte d'Azur49902.0
-Cannes06Provence-Alpes-Côte d'Azur74152.0
-Le Cannet06Provence-Alpes-Côte d'Azur41612.0
-Grasse06Provence-Alpes-Côte d'Azur50677.0
-Menton06Provence-Alpes-Côte d'Azur28486.0
-Nice06Provence-Alpes-Côte d'Azur342637.0
-Saint-Laurent-du-Var06Provence-Alpes-Côte d'Azur28645.0
-Vallauris06Provence-Alpes-Côte d'Azur26618.0
-Charleville-Mézières08Grand Est46682.0
-Troyes10Grand Est60640.0
-Carcassonne11Occitanie45895.0
-Narbonne11Occitanie53594.0
-Aix-en-Provence13Provence-Alpes-Côte d'Azur143006.0
-Arles13Provence-Alpes-Côte d'Azur52857.0
-Aubagne13Provence-Alpes-Côte d'Azur45290.0
-La Ciotat13Provence-Alpes-Côte d'Azur35366.0
-Istres13Provence-Alpes-Côte d'Azur42925.0
-Marignane13Provence-Alpes-Côte d'Azur33658.0
-Marseille13Provence-Alpes-Côte d'Azur862211.0
-Martigues13Provence-Alpes-Côte d'Azur48783.0
-Miramas13Provence-Alpes-Côte d'Azur25756.0
-Salon-de-Provence13Provence-Alpes-Côte d'Azur45574.0
-Vitrolles13Provence-Alpes-Côte d'Azur33880.0
-Caen14Normandie105403.0
-Aurillac15Auvergne-Rhône-Alpes25954.0
-Angoulême16Nouvelle-Aquitaine41935.0
-La Rochelle17Nouvelle-Aquitaine75736.0
-Saintes17Nouvelle-Aquitaine25355.0
-Bourges18Centre-Val de Loire65555.0
-Vierzon18Centre-Val de Loire26365.0
-Brive-la-Gaillarde19Nouvelle-Aquitaine47004.0
-Ajaccio2ACorse69075.0
-Bastia2BCorse44829.0
-Dijon21Bourgogne-Franche-Comté155090.0
-Saint-Brieuc22Bretagne44999.0
-Bergerac24Nouvelle-Aquitaine27269.0
-Périgueux24Nouvelle-Aquitaine29912.0
-Besançon25Bourgogne-Franche-Comté116466.0
-Montbéliard25Bourgogne-Franche-Comté25304.0
-Montélimar26Auvergne-Rhône-Alpes38692.0
-Romans-sur-Isère26Auvergne-Rhône-Alpes33310.0
-Valence26Auvergne-Rhône-Alpes62477.0
-Évreux27Normandie48899.0
-Chartres28Centre-Val de Loire38752.0
-Dreux28Centre-Val de Loire30977.0
-Brest29Bretagne139342.0
-Quimper29Bretagne63405.0
-Alès30Occitanie39970.0
-Nîmes30Occitanie151001.0
-Colomiers31Occitanie38716.0
-Muret31Occitanie25207.0
-Toulouse31Occitanie475438.0
-Tournefeuille31Occitanie26436.0
-Bègles33Nouvelle-Aquitaine27713.0
-Bordeaux33Nouvelle-Aquitaine252040.0
-Gradignan33Nouvelle-Aquitaine25563.0
-Mérignac33Nouvelle-Aquitaine70317.0
-Pessac33Nouvelle-Aquitaine61859.0
-Saint-Médard-en-Jalles33Nouvelle-Aquitaine30956.0
-Talence33Nouvelle-Aquitaine42712.0
-La Teste-de-Buch33Nouvelle-Aquitaine26168.0
-Villenave-d'Ornon33Nouvelle-Aquitaine32750.0
-Agde34Occitanie27681.0
-Béziers34Occitanie76493.0
-Lunel34Occitanie26002.0
-Montpellier34Occitanie281613.0
-Sète34Occitanie43609.0
-Rennes35Bretagne216268.0
-Saint-Malo35Bretagne46005.0
-Châteauroux36Centre-Val de Loire44088.0
-Joué-lès-Tours37Centre-Val de Loire37505.0
-Tours37Centre-Val de Loire136565.0
-Bourgoin-Jallieu38Auvergne-Rhône-Alpes27651.0
-Échirolles38Auvergne-Rhône-Alpes35855.0
-Grenoble38Auvergne-Rhône-Alpes158180.0
-Saint-Martin-d'Hères38Auvergne-Rhône-Alpes38634.0
-Vienne38Auvergne-Rhône-Alpes29454.0
-Mont-de-Marsan40Nouvelle-Aquitaine29885.0
-Blois41Centre-Val de Loire45687.0
-Roanne42Auvergne-Rhône-Alpes34685.0
-Saint-Chamond42Auvergne-Rhône-Alpes35339.0
-Saint-Étienne42Auvergne-Rhône-Alpes171924.0
-Nantes44Pays de la Loire306694.0
-Orvault44Pays de la Loire25931.0
-Rezé44Pays de la Loire40368.0
-Saint-Herblain44Pays de la Loire46603.0
-Saint-Nazaire44Pays de la Loire69719.0
-Saint-Sébastien-sur-Loire44Pays de la Loire26872.0
-Orléans45Centre-Val de Loire114782.0
-Agen47Nouvelle-Aquitaine33569.0
-Angers49Pays de la Loire151229.0
-Cholet49Pays de la Loire53718.0
-Saumur49Pays de la Loire27125.0
-Sèvremoine49Pays de la Loire25681.0
-Cherbourg-en-Cotentin50Normandie80076.0
-Châlons-en-Champagne51Grand Est44980.0
-Reims51Grand Est183113.0
-Laval53Pays de la Loire49492.0
-Nancy54Grand Est104592.0
-Vandœuvre-lès-Nancy54Grand Est30182.0
-Lorient56Bretagne57274.0
-Vannes56Bretagne53218.0
-Metz57Grand Est117890.0
-Thionville57Grand Est40586.0
-Nevers58Bourgogne-Franche-Comté33235.0
-Armentières59Hauts-de-France25015.0
-Cambrai59Hauts-de-France32668.0
-Douai59Hauts-de-France39657.0
-Dunkerque59Hauts-de-France88108.0
-Lambersart59Hauts-de-France27618.0
-Lille59Hauts-de-France232440.0
-Marcq-en-Barœul59Hauts-de-France38805.0
-Maubeuge59Hauts-de-France29679.0
-Roubaix59Hauts-de-France96412.0
-Tourcoing59Hauts-de-France97476.0
-Valenciennes59Hauts-de-France43680.0
-Villeneuve-d'Ascq59Hauts-de-France62358.0
-Wattrelos59Hauts-de-France41341.0
-Beauvais60Hauts-de-France56020.0
-Compiègne60Hauts-de-France40258.0
-Creil60Hauts-de-France35747.0
-Alençon61Normandie26129.0
-Arras62Hauts-de-France40883.0
-Béthune62Hauts-de-France25186.0
-Boulogne-sur-Mer62Hauts-de-France41669.0
-Calais62Hauts-de-France74978.0
-Hénin-Beaumont62Hauts-de-France25901.0
-Lens62Hauts-de-France30689.0
-Liévin62Hauts-de-France30936.0
-Clermont-Ferrand63Auvergne-Rhône-Alpes142686.0
-Anglet64Nouvelle-Aquitaine38663.0
-Bayonne64Nouvelle-Aquitaine50589.0
-Pau64Nouvelle-Aquitaine77251.0
-Tarbes65Occitanie40318.0
-Perpignan66Occitanie121875.0
-Haguenau67Grand Est34460.0
-Illkirch-Graffenstaden67Grand Est26837.0
-Schiltigheim67Grand Est31811.0
-Strasbourg67Grand Est279284.0
-Colmar68Grand Est69899.0
-Mulhouse68Grand Est108999.0
-Bron69Auvergne-Rhône-Alpes41060.0
-Caluire-et-Cuire69Auvergne-Rhône-Alpes42915.0
-Décines-Charpieu69Auvergne-Rhône-Alpes27851.0
-Lyon 1er Arrondissement69Auvergne-Rhône-Alpes29575.0
-Lyon 2e Arrondissement69Auvergne-Rhône-Alpes30435.0
-Lyon 3e Arrondissement69Auvergne-Rhône-Alpes101992.0
-Lyon 4e Arrondissement69Auvergne-Rhône-Alpes36080.0
-Lyon 5e Arrondissement69Auvergne-Rhône-Alpes48929.0
-Lyon 6e Arrondissement69Auvergne-Rhône-Alpes51416.0
-Lyon 7e Arrondissement69Auvergne-Rhône-Alpes82045.0
-Lyon 8e Arrondissement69Auvergne-Rhône-Alpes84517.0
-Lyon 9e Arrondissement69Auvergne-Rhône-Alpes50706.0
-Meyzieu69Auvergne-Rhône-Alpes32996.0
-Oullins69Auvergne-Rhône-Alpes26512.0
-Rillieux-la-Pape69Auvergne-Rhône-Alpes29885.0
-Saint-Priest69Auvergne-Rhône-Alpes45844.0
-Vaulx-en-Velin69Auvergne-Rhône-Alpes48497.0
-Vénissieux69Auvergne-Rhône-Alpes65405.0
-Villefranche-sur-Saône69Auvergne-Rhône-Alpes37266.0
-Villeurbanne69Auvergne-Rhône-Alpes149019.0
-Chalon-sur-Saône71Bourgogne-Franche-Comté45446.0
-Mâcon71Bourgogne-Franche-Comté33427.0
-Le Mans72Pays de la Loire142991.0
-Aix-les-Bains73Auvergne-Rhône-Alpes29799.0
-Chambéry73Auvergne-Rhône-Alpes59183.0
-Annecy74Auvergne-Rhône-Alpes126419.0
-Annemasse74Auvergne-Rhône-Alpes35041.0
-Thonon-les-Bains74Auvergne-Rhône-Alpes35132.0
-Paris75Île-de-France2190327.0
-Dieppe76Normandie29606.0
-Le Grand-Quevilly76Normandie25897.0
-Le Havre76Normandie170352.0
-Rouen76Normandie110117.0
-Saint-Étienne-du-Rouvray76Normandie28696.0
-Sotteville-lès-Rouen76Normandie28991.0
-Bussy-Saint-Georges77Île-de-France26971.0
-Chelles77Île-de-France54196.0
-Meaux77Île-de-France54331.0
-Melun77Île-de-France40228.0
-Pontault-Combault77Île-de-France38326.0
-Savigny-le-Temple77Île-de-France30097.0
-Villeparisis77Île-de-France26327.0
-Chatou78Île-de-France31134.0
-Le Chesnay78Île-de-France28001.0
-Conflans-Sainte-Honorine78Île-de-France35404.0
-Élancourt78Île-de-France25529.0
-Guyancourt78Île-de-France28385.0
-Houilles78Île-de-France31689.0
-Mantes-la-Jolie78Île-de-France43969.0
-Montigny-le-Bretonneux78Île-de-France32986.0
-Les Mureaux78Île-de-France32575.0
-Plaisir78Île-de-France31680.0
-Poissy78Île-de-France37146.0
-Rambouillet78Île-de-France26202.0
-Saint-Germain-en-Laye78Île-de-France39982.0
-Sartrouville78Île-de-France52648.0
-Trappes78Île-de-France32679.0
-Versailles78Île-de-France85346.0
-Niort79Nouvelle-Aquitaine59005.0
-Amiens80Hauts-de-France133755.0
-Albi81Occitanie49024.0
-Castres81Occitanie41338.0
-Montauban82Occitanie60444.0
-Draguignan83Provence-Alpes-Côte d'Azur40053.0
-Fréjus83Provence-Alpes-Côte d'Azur53168.0
-La Garde83Provence-Alpes-Côte d'Azur25236.0
-Hyères83Provence-Alpes-Côte d'Azur55772.0
-Saint-Raphaël83Provence-Alpes-Côte d'Azur35222.0
-La Seyne-sur-Mer83Provence-Alpes-Côte d'Azur64620.0
-Six-Fours-les-Plages83Provence-Alpes-Côte d'Azur33250.0
-Toulon83Provence-Alpes-Côte d'Azur169634.0
-Avignon84Provence-Alpes-Côte d'Azur92378.0
-Carpentras84Provence-Alpes-Côte d'Azur28554.0
-Cavaillon84Provence-Alpes-Côte d'Azur26492.0
-Orange84Provence-Alpes-Côte d'Azur29212.0
-La Roche-sur-Yon85Pays de la Loire53741.0
-Châtellerault86Nouvelle-Aquitaine32057.0
-Poitiers86Nouvelle-Aquitaine87961.0
-Limoges87Nouvelle-Aquitaine132660.0
-Épinal88Grand Est31558.0
-Auxerre89Bourgogne-Franche-Comté34846.0
-Sens89Bourgogne-Franche-Comté25913.0
-Belfort90Bourgogne-Franche-Comté48973.0
-Athis-Mons91Île-de-France33691.0
-Brétigny-sur-Orge91Île-de-France26275.0
-Brunoy91Île-de-France26055.0
-Corbeil-Essonnes91Île-de-France51049.0
-Draveil91Île-de-France29279.0
-Évry91Île-de-France54663.0
-Grigny91Île-de-France28958.0
-Massy91Île-de-France49924.0
-Palaiseau91Île-de-France34120.0
-Ris-Orangis91Île-de-France28796.0
-Sainte-Geneviève-des-Bois91Île-de-France35859.0
-Savigny-sur-Orge91Île-de-France36307.0
-Vigneux-sur-Seine91Île-de-France31256.0
-Viry-Châtillon91Île-de-France30575.0
-Yerres91Île-de-France28820.0
-Antony92Île-de-France62210.0
-Asnières-sur-Seine92Île-de-France85973.0
-Bagneux92Île-de-France39763.0
-Bois-Colombes92Île-de-France28323.0
-Boulogne-Billancourt92Île-de-France119645.0
-Châtenay-Malabry92Île-de-France33016.0
-Châtillon92Île-de-France36779.0
-Clamart92Île-de-France52528.0
-Clichy92Île-de-France60387.0
-Colombes92Île-de-France85368.0
-Courbevoie92Île-de-France81720.0
-La Garenne-Colombes92Île-de-France29248.0
-Gennevilliers92Île-de-France46653.0
-Issy-les-Moulineaux92Île-de-France68395.0
-Levallois-Perret92Île-de-France63462.0
-Malakoff92Île-de-France29973.0
-Meudon92Île-de-France45328.0
-Montrouge92Île-de-France49128.0
-Nanterre92Île-de-France94258.0
-Neuilly-sur-Seine92Île-de-France60580.0
-Le Plessis-Robinson92Île-de-France29028.0
-Puteaux92Île-de-France44662.0
-Rueil-Malmaison92Île-de-France78195.0
-Saint-Cloud92Île-de-France30193.0
-Suresnes92Île-de-France48620.0
-Vanves92Île-de-France27846.0
-Aubervilliers93Île-de-France86061.0
-Aulnay-sous-Bois93Île-de-France84662.0
-Bagnolet93Île-de-France35864.0
-Le Blanc-Mesnil93Île-de-France55987.0
-Bobigny93Île-de-France52337.0
-Bondy93Île-de-France53193.0
-Clichy-sous-Bois93Île-de-France29835.0
-La Courneuve93Île-de-France42485.0
-Drancy93Île-de-France70269.0
-Épinay-sur-Seine93Île-de-France55593.0
-Gagny93Île-de-France39148.0
-Livry-Gargan93Île-de-France44466.0
-Montfermeil93Île-de-France26085.0
-Montreuil93Île-de-France108402.0
-Neuilly-sur-Marne93Île-de-France34685.0
-Noisy-le-Grand93Île-de-France66659.0
-Noisy-le-Sec93Île-de-France43537.0
-Pantin93Île-de-France55342.0
-Pierrefitte-sur-Seine93Île-de-France29608.0
-Romainville93Île-de-France26510.0
-Rosny-sous-Bois93Île-de-France45411.0
-Saint-Denis93Île-de-France111354.0
-Saint-Ouen93Île-de-France49664.0
-Sevran93Île-de-France50629.0
-Stains93Île-de-France39618.0
-Tremblay-en-France93Île-de-France35691.0
-Villemomble93Île-de-France30051.0
-Villepinte93Île-de-France36656.0
-Alfortville94Île-de-France43886.0
-Cachan94Île-de-France30208.0
-Champigny-sur-Marne94Île-de-France77409.0
-Charenton-le-Pont94Île-de-France30500.0
-Choisy-le-Roi94Île-de-France44450.0
-Créteil94Île-de-France89392.0
-Fontenay-sous-Bois94Île-de-France53424.0
-Fresnes94Île-de-France27416.0
-L' Haÿ-les-Roses94Île-de-France31189.0
-Ivry-sur-Seine94Île-de-France60771.0
-Le Kremlin-Bicêtre94Île-de-France25292.0
-Limeil-Brévannes94Île-de-France26703.0
-Maisons-Alfort94Île-de-France55289.0
-Nogent-sur-Marne94Île-de-France31947.0
-Le Perreux-sur-Marne94Île-de-France33729.0
-Saint-Maur-des-Fossés94Île-de-France74893.0
-Sucy-en-Brie94Île-de-France26279.0
-Thiais94Île-de-France29006.0
-Villejuif94Île-de-France55478.0
-Villeneuve-Saint-Georges94Île-de-France32966.0
-Villiers-sur-Marne94Île-de-France29226.0
-Vincennes94Île-de-France49853.0
-Vitry-sur-Seine94Île-de-France92755.0
-Argenteuil95Île-de-France110468.0
-Bezons95Île-de-France28976.0
-Cergy95Île-de-France63820.0
-Eaubonne95Île-de-France25161.0
-Ermont95Île-de-France29112.0
-Franconville95Île-de-France36112.0
-Garges-lès-Gonesse95Île-de-France42598.0
-Gonesse95Île-de-France26336.0
-Goussainville95Île-de-France30948.0
-Herblay95Île-de-France29066.0
-Pontoise95Île-de-France30690.0
-Sannois95Île-de-France26537.0
-Sarcelles95Île-de-France57781.0
-Taverny95Île-de-France26296.0
-Villiers-le-Bel95Île-de-France27247.0
-Les Abymes971Guadeloupe54260.0
-Baie-Mahault971Guadeloupe30868.0
-Le Gosier971Guadeloupe26666.0
-Fort-de-France972Martinique81017.0
-Le Lamentin972Martinique40175.0
-Cayenne973Guyane60580.0
-Kourou973Guyane26522.0
-Matoury973Guyane32440.0
-Remire-Montjoly973Guyane25711.0
-Saint-Laurent-du-Maroni973Guyane43799.0
-Le Port974La Réunion34810.0
-La Possession974La Réunion32973.0
-Saint-André974La Réunion55628.0
-Saint-Benoît974La Réunion38142.0
-Saint-Denis974La Réunion147920.0
-Saint-Joseph974La Réunion37629.0
-Saint-Leu974La Réunion33697.0
-Saint-Louis974La Réunion53220.0
-Saint-Paul974La Réunion105482.0
-Saint-Pierre974La Réunion84169.0
-Sainte-Marie974La Réunion33160.0
-Le Tampon974La Réunion77283.0
+Bourg-en-Bresse01Auvergne-Rhône-Alpes43454.0
+Laon02Hauts-de-France26031.0
+Saint-Quentin02Hauts-de-France55940.0
+Soissons02Hauts-de-France29417.0
+Montluçon03Auvergne-Rhône-Alpes37417.0
+Gap05Provence-Alpes-Côte d'Azur42567.0
+Antibes06Provence-Alpes-Côte d'Azur74982.0
+Cagnes-sur-Mer06Provence-Alpes-Côte d'Azur50385.0
+Cannes06Provence-Alpes-Côte d'Azur75046.0
+Le Cannet06Provence-Alpes-Côte d'Azur42056.0
+Grasse06Provence-Alpes-Côte d'Azur51705.0
+Menton06Provence-Alpes-Côte d'Azur28942.0
+Nice06Provence-Alpes-Côte d'Azur345998.0
+Saint-Laurent-du-Var06Provence-Alpes-Côte d'Azur28831.0
+Vallauris06Provence-Alpes-Côte d'Azur26787.0
+Charleville-Mézières08Grand Est48420.0
+Troyes10Grand Est61988.0
+Carcassonne11Occitanie47418.0
+Narbonne11Occitanie55001.0
+Rodez12Occitanie25747.0
+Aix-en-Provence13Provence-Alpes-Côte d'Azur146385.0
+Arles13Provence-Alpes-Côte d'Azur53807.0
+Aubagne13Provence-Alpes-Côte d'Azur45711.0
+La Ciotat13Provence-Alpes-Côte d'Azur35758.0
+Istres13Provence-Alpes-Côte d'Azur44248.0
+Marignane13Provence-Alpes-Côte d'Azur33949.0
+Marseille13Provence-Alpes-Côte d'Azur870018.0
+Martigues13Provence-Alpes-Côte d'Azur49310.0
+Miramas13Provence-Alpes-Côte d'Azur26217.0
+Salon-de-Provence13Provence-Alpes-Côte d'Azur46225.0
+Vitrolles13Provence-Alpes-Côte d'Azur34301.0
+Caen14Normandie108461.0
+Aurillac15Auvergne-Rhône-Alpes27659.0
+Angoulême16Nouvelle-Aquitaine44629.0
+La Rochelle17Nouvelle-Aquitaine78623.0
+Saintes17Nouvelle-Aquitaine26890.0
+Bourges18Centre-Val de Loire67841.0
+Vierzon18Centre-Val de Loire27036.0
+Brive-la-Gaillarde19Nouvelle-Aquitaine48333.0
+Ajaccio2ACorse70063.0
+Bastia2BCorse45596.0
+Dijon21Bourgogne-Franche-Comté159031.0
+Saint-Brieuc22Bretagne47058.0
+Bergerac24Nouvelle-Aquitaine28166.0
+Périgueux24Nouvelle-Aquitaine31505.0
+Besançon25Bourgogne-Franche-Comté120107.0
+Montbéliard25Bourgogne-Franche-Comté26015.0
+Montélimar26Auvergne-Rhône-Alpes39924.0
+Romans-sur-Isère26Auvergne-Rhône-Alpes34095.0
+Valence26Auvergne-Rhône-Alpes64322.0
+Évreux27Normandie51560.0
+Chartres28Centre-Val de Loire40195.0
+Dreux28Centre-Val de Loire31575.0
+Brest29Bretagne142629.0
+Quimper29Bretagne66743.0
+Alès30Occitanie41129.0
+Nîmes30Occitanie154196.0
+Colomiers31Occitanie39200.0
+Muret31Occitanie25961.0
+Toulouse31Occitanie482738.0
+Tournefeuille31Occitanie27008.0
+Bègles33Nouvelle-Aquitaine28092.0
+Bordeaux33Nouvelle-Aquitaine256045.0
+Gradignan33Nouvelle-Aquitaine26029.0
+Libourne33Nouvelle-Aquitaine25491.0
+Mérignac33Nouvelle-Aquitaine71203.0
+Pessac33Nouvelle-Aquitaine62737.0
+Saint-Médard-en-Jalles33Nouvelle-Aquitaine31576.0
+Talence33Nouvelle-Aquitaine44040.0
+La Teste-de-Buch33Nouvelle-Aquitaine26525.0
+Villenave-d'Ornon33Nouvelle-Aquitaine33091.0
+Agde34Occitanie28120.0
+Béziers34Occitanie77894.0
+Lunel34Occitanie26263.0
+Montpellier34Occitanie286098.0
+Sète34Occitanie44271.0
+Rennes35Bretagne222104.0
+Saint-Malo35Bretagne47528.0
+Châteauroux36Centre-Val de Loire45780.0
+Joué-lès-Tours37Centre-Val de Loire37974.0
+Tours37Centre-Val de Loire139963.0
+Bourgoin-Jallieu38Auvergne-Rhône-Alpes28399.0
+Échirolles38Auvergne-Rhône-Alpes36143.0
+Grenoble38Auvergne-Rhône-Alpes160836.0
+Saint-Martin-d'Hères38Auvergne-Rhône-Alpes38974.0
+Vienne38Auvergne-Rhône-Alpes30178.0
+Mont-de-Marsan40Nouvelle-Aquitaine31517.0
+Blois41Centre-Val de Loire47524.0
+Roanne42Auvergne-Rhône-Alpes35913.0
+Saint-Chamond42Auvergne-Rhône-Alpes35969.0
+Saint-Étienne42Auvergne-Rhône-Alpes174298.0
+Nantes44Pays de la Loire314611.0
+Orvault44Pays de la Loire26618.0
+Rezé44Pays de la Loire41808.0
+Saint-Herblain44Pays de la Loire47502.0
+Saint-Nazaire44Pays de la Loire72295.0
+Saint-Sébastien-sur-Loire44Pays de la Loire27591.0
+Orléans45Centre-Val de Loire118102.0
+Agen47Nouvelle-Aquitaine34565.0
+Angers49Pays de la Loire155543.0
+Cholet49Pays de la Loire55772.0
+Saumur49Pays de la Loire28554.0
+Sèvremoine49Pays de la Loire26239.0
+Cherbourg-en-Cotentin50Normandie82578.0
+Châlons-en-Champagne51Grand Est46288.0
+Reims51Grand Est187074.0
+Saint-Dizier52Grand Est25666.0
+Laval53Pays de la Loire52359.0
+Nancy54Grand Est106953.0
+Vandœuvre-lès-Nancy54Grand Est30502.0
+Lorient56Bretagne58789.0
+Vannes56Bretagne55573.0
+Metz57Grand Est119856.0
+Thionville57Grand Est41396.0
+Nevers58Bourgogne-Franche-Comté34799.0
+Armentières59Hauts-de-France25373.0
+Cambrai59Hauts-de-France33349.0
+Douai59Hauts-de-France40860.0
+Dunkerque59Hauts-de-France89485.0
+Lambersart59Hauts-de-France28027.0
+Lille59Hauts-de-France236782.0
+Marcq-en-Barœul59Hauts-de-France39697.0
+Maubeuge59Hauts-de-France29995.0
+Roubaix59Hauts-de-France96953.0
+Tourcoing59Hauts-de-France98170.0
+Valenciennes59Hauts-de-France44509.0
+Villeneuve-d'Ascq59Hauts-de-France63085.0
+Wattrelos59Hauts-de-France41570.0
+Beauvais60Hauts-de-France57548.0
+Compiègne60Hauts-de-France41660.0
+Creil60Hauts-de-France36091.0
+Alençon61Normandie27221.0
+Arras62Hauts-de-France41973.0
+Béthune62Hauts-de-France25753.0
+Boulogne-sur-Mer62Hauts-de-France42293.0
+Calais62Hauts-de-France75719.0
+Hénin-Beaumont62Hauts-de-France26260.0
+Lens62Hauts-de-France31080.0
+Liévin62Hauts-de-France31337.0
+Clermont-Ferrand63Auvergne-Rhône-Alpes146112.0
+Anglet64Nouvelle-Aquitaine39995.0
+Bayonne64Nouvelle-Aquitaine51943.0
+Biarritz64Nouvelle-Aquitaine25518.0
+Pau64Nouvelle-Aquitaine79022.0
+Tarbes65Occitanie41862.0
+Perpignan66Occitanie123602.0
+Haguenau67Grand Est35024.0
+Illkirch-Graffenstaden67Grand Est27505.0
+Schiltigheim67Grand Est32024.0
+Strasbourg67Grand Est283515.0
+Colmar68Grand Est71445.0
+Mulhouse68Grand Est110468.0
+Bron69Auvergne-Rhône-Alpes41589.0
+Caluire-et-Cuire69Auvergne-Rhône-Alpes43546.0
+Décines-Charpieu69Auvergne-Rhône-Alpes28249.0
+Lyon 1er Arrondissement69Auvergne-Rhône-Alpes30423.0
+Lyon 2e Arrondissement69Auvergne-Rhône-Alpes30857.0
+Lyon 3e Arrondissement69Auvergne-Rhône-Alpes103506.0
+Lyon 4e Arrondissement69Auvergne-Rhône-Alpes36524.0
+Lyon 5e Arrondissement69Auvergne-Rhône-Alpes49998.0
+Lyon 6e Arrondissement69Auvergne-Rhône-Alpes52282.0
+Lyon 7e Arrondissement69Auvergne-Rhône-Alpes82651.0
+Lyon 8e Arrondissement69Auvergne-Rhône-Alpes85610.0
+Lyon 9e Arrondissement69Auvergne-Rhône-Alpes51313.0
+Meyzieu69Auvergne-Rhône-Alpes33351.0
+Oullins69Auvergne-Rhône-Alpes26838.0
+Rillieux-la-Pape69Auvergne-Rhône-Alpes30275.0
+Saint-Priest69Auvergne-Rhône-Alpes46153.0
+Vaulx-en-Velin69Auvergne-Rhône-Alpes48906.0
+Vénissieux69Auvergne-Rhône-Alpes65822.0
+Villefranche-sur-Saône69Auvergne-Rhône-Alpes37783.0
+Villeurbanne69Auvergne-Rhône-Alpes150375.0
+Chalon-sur-Saône71Bourgogne-Franche-Comté47085.0
+Mâcon71Bourgogne-Franche-Comté34448.0
+Le Mans72Pays de la Loire146804.0
+Aix-les-Bains73Auvergne-Rhône-Alpes30377.0
+Chambéry73Auvergne-Rhône-Alpes60872.0
+Annecy74Auvergne-Rhône-Alpes130257.0
+Annemasse74Auvergne-Rhône-Alpes35461.0
+Thonon-les-Bains74Auvergne-Rhône-Alpes36296.0
+Paris75Île-de-France2210875.0
+Dieppe76Normandie30588.0
+Le Grand-Quevilly76Normandie26175.0
+Le Havre76Normandie172769.0
+Rouen76Normandie112596.0
+Saint-Étienne-du-Rouvray76Normandie29180.0
+Sotteville-lès-Rouen76Normandie29766.0
+Bussy-Saint-Georges77Île-de-France27299.0
+Chelles77Île-de-France54682.0
+Meaux77Île-de-France56249.0
+Melun77Île-de-France41183.0
+Pontault-Combault77Île-de-France38587.0
+Savigny-le-Temple77Île-de-France30352.0
+Villeparisis77Île-de-France26507.0
+Chatou78Île-de-France31653.0
+Le Chesnay78Île-de-France28558.0
+Conflans-Sainte-Honorine78Île-de-France36058.0
+Élancourt78Île-de-France25829.0
+Guyancourt78Île-de-France28839.0
+Houilles78Île-de-France32064.0
+Mantes-la-Jolie78Île-de-France44231.0
+Montigny-le-Bretonneux78Île-de-France33535.0
+Les Mureaux78Île-de-France32777.0
+Plaisir78Île-de-France32128.0
+Poissy78Île-de-France37524.0
+Rambouillet78Île-de-France26781.0
+Saint-Germain-en-Laye78Île-de-France41749.0
+Sartrouville78Île-de-France53237.0
+Trappes78Île-de-France32931.0
+Versailles78Île-de-France87315.0
+Niort79Nouvelle-Aquitaine61044.0
+Amiens80Hauts-de-France136998.0
+Albi81Occitanie51151.0
+Castres81Occitanie42923.0
+Montauban82Occitanie61978.0
+Draguignan83Provence-Alpes-Côte d'Azur40928.0
+Fréjus83Provence-Alpes-Côte d'Azur54023.0
+La Garde83Provence-Alpes-Côte d'Azur25645.0
+Hyères83Provence-Alpes-Côte d'Azur56799.0
+Saint-Raphaël83Provence-Alpes-Côte d'Azur35826.0
+La Seyne-sur-Mer83Provence-Alpes-Côte d'Azur65386.0
+Six-Fours-les-Plages83Provence-Alpes-Côte d'Azur33904.0
+Toulon83Provence-Alpes-Côte d'Azur171643.0
+Avignon84Provence-Alpes-Côte d'Azur94200.0
+Carpentras84Provence-Alpes-Côte d'Azur29498.0
+Cavaillon84Provence-Alpes-Côte d'Azur26985.0
+Orange84Provence-Alpes-Côte d'Azur29856.0
+La Roche-sur-Yon85Pays de la Loire56991.0
+Châtellerault86Nouvelle-Aquitaine32887.0
+Poitiers86Nouvelle-Aquitaine90590.0
+Limoges87Nouvelle-Aquitaine135140.0
+Épinal88Grand Est33454.0
+Auxerre89Bourgogne-Franche-Comté36804.0
+Sens89Bourgogne-Franche-Comté26688.0
+Belfort90Bourgogne-Franche-Comté49926.0
+Athis-Mons91Île-de-France34065.0
+Brétigny-sur-Orge91Île-de-France26702.0
+Brunoy91Île-de-France26520.0
+Corbeil-Essonnes91Île-de-France51682.0
+Draveil91Île-de-France29558.0
+Évry91Île-de-France55425.0
+Grigny91Île-de-France29118.0
+Massy91Île-de-France50549.0
+Palaiseau91Île-de-France34954.0
+Ris-Orangis91Île-de-France29040.0
+Sainte-Geneviève-des-Bois91Île-de-France36219.0
+Savigny-sur-Orge91Île-de-France36677.0
+Les Ulis91Île-de-France25031.0
+Vigneux-sur-Seine91Île-de-France31488.0
+Viry-Châtillon91Île-de-France30962.0
+Yerres91Île-de-France29132.0
+Antony92Île-de-France62989.0
+Asnières-sur-Seine92Île-de-France86678.0
+Bagneux92Île-de-France39977.0
+Bois-Colombes92Île-de-France28607.0
+Boulogne-Billancourt92Île-de-France120943.0
+Châtenay-Malabry92Île-de-France33413.0
+Châtillon92Île-de-France37132.0
+Clamart92Île-de-France53099.0
+Clichy92Île-de-France60746.0
+Colombes92Île-de-France86050.0
+Courbevoie92Île-de-France82351.0
+La Garenne-Colombes92Île-de-France29503.0
+Gennevilliers92Île-de-France46939.0
+Issy-les-Moulineaux92Île-de-France69231.0
+Levallois-Perret92Île-de-France64028.0
+Malakoff92Île-de-France30286.0
+Meudon92Île-de-France46014.0
+Montrouge92Île-de-France49372.0
+Nanterre92Île-de-France96321.0
+Neuilly-sur-Seine92Île-de-France61501.0
+Le Plessis-Robinson92Île-de-France29192.0
+Puteaux92Île-de-France44941.0
+Rueil-Malmaison92Île-de-France79783.0
+Saint-Cloud92Île-de-France30797.0
+Suresnes92Île-de-France49145.0
+Vanves92Île-de-France28148.0
+Aubervilliers93Île-de-France86533.0
+Aulnay-sous-Bois93Île-de-France85214.0
+Bagnolet93Île-de-France36047.0
+Le Blanc-Mesnil93Île-de-France56346.0
+Bobigny93Île-de-France52633.0
+Bondy93Île-de-France53416.0
+Clichy-sous-Bois93Île-de-France29978.0
+La Courneuve93Île-de-France42712.0
+Drancy93Île-de-France70883.0
+Épinay-sur-Seine93Île-de-France55754.0
+Gagny93Île-de-France39391.0
+Livry-Gargan93Île-de-France44721.0
+Montfermeil93Île-de-France26262.0
+Montreuil93Île-de-France109235.0
+Neuilly-sur-Marne93Île-de-France34859.0
+Noisy-le-Grand93Île-de-France67086.0
+Noisy-le-Sec93Île-de-France43693.0
+Pantin93Île-de-France55585.0
+Pierrefitte-sur-Seine93Île-de-France29728.0
+Romainville93Île-de-France26640.0
+Rosny-sous-Bois93Île-de-France45663.0
+Saint-Denis93Île-de-France112309.0
+Saint-Ouen93Île-de-France49949.0
+Sevran93Île-de-France50888.0
+Stains93Île-de-France39776.0
+Tremblay-en-France93Île-de-France35866.0
+Villemomble93Île-de-France30227.0
+Villepinte93Île-de-France36809.0
+Alfortville94Île-de-France44136.0
+Cachan94Île-de-France30524.0
+Champigny-sur-Marne94Île-de-France77883.0
+Charenton-le-Pont94Île-de-France30793.0
+Choisy-le-Roi94Île-de-France44781.0
+Créteil94Île-de-France90052.0
+Fontenay-sous-Bois94Île-de-France53968.0
+Fresnes94Île-de-France27556.0
+L' Haÿ-les-Roses94Île-de-France31416.0
+Ivry-sur-Seine94Île-de-France61099.0
+Le Kremlin-Bicêtre94Île-de-France25422.0
+Limeil-Brévannes94Île-de-France26901.0
+Maisons-Alfort94Île-de-France55816.0
+Nogent-sur-Marne94Île-de-France32195.0
+Le Perreux-sur-Marne94Île-de-France34017.0
+Saint-Maur-des-Fossés94Île-de-France75833.0
+Sucy-en-Brie94Île-de-France26575.0
+Thiais94Île-de-France29295.0
+Villejuif94Île-de-France55805.0
+Villeneuve-Saint-Georges94Île-de-France33135.0
+Villiers-sur-Marne94Île-de-France29407.0
+Vincennes94Île-de-France50300.0
+Vitry-sur-Seine94Île-de-France93317.0
+Argenteuil95Île-de-France112064.0
+Bezons95Île-de-France29216.0
+Cergy95Île-de-France64451.0
+Eaubonne95Île-de-France25514.0
+Ermont95Île-de-France29400.0
+Franconville95Île-de-France36349.0
+Garges-lès-Gonesse95Île-de-France42821.0
+Gonesse95Île-de-France26556.0
+Goussainville95Île-de-France31167.0
+Herblay95Île-de-France29614.0
+Pontoise95Île-de-France31880.0
+Sannois95Île-de-France27118.0
+Sarcelles95Île-de-France58332.0
+Taverny95Île-de-France26541.0
+Villiers-le-Bel95Île-de-France27519.0
+Les Abymes971Guadeloupe54818.0
+Baie-Mahault971Guadeloupe31338.0
+Le Gosier971Guadeloupe27023.0
+Fort-de-France972Martinique82030.0
+Le Lamentin972Martinique40920.0
+Cayenne973Guyane60947.0
+Kourou973Guyane26726.0
+Matoury973Guyane32768.0
+Remire-Montjoly973Guyane26170.0
+Saint-Laurent-du-Maroni973Guyane44130.0
+Le Port974La Réunion35141.0
+La Possession974La Réunion33337.0
+Saint-André974La Réunion56088.0
+Saint-Benoît974La Réunion38466.0
+Saint-Denis974La Réunion149337.0
+Saint-Joseph974La Réunion38167.0
+Saint-Leu974La Réunion34160.0
+Saint-Louis974La Réunion53832.0
+Saint-Paul974La Réunion106920.0
+Saint-Pierre974La Réunion85059.0
+Sainte-Marie974La Réunion33587.0
+Le Tampon974La Réunion78366.0
+Nom de la ville , Code Département, nom Region, Population totale
+Bourg-en-Bresse01Auvergne-Rhône-Alpes43454.0
+Laon02Hauts-de-France26031.0
+Saint-Quentin02Hauts-de-France55940.0
+Soissons02Hauts-de-France29417.0
+Montluçon03Auvergne-Rhône-Alpes37417.0
+Gap05Provence-Alpes-Côte d'Azur42567.0
+Antibes06Provence-Alpes-Côte d'Azur74982.0
+Cagnes-sur-Mer06Provence-Alpes-Côte d'Azur50385.0
+Cannes06Provence-Alpes-Côte d'Azur75046.0
+Le Cannet06Provence-Alpes-Côte d'Azur42056.0
+Grasse06Provence-Alpes-Côte d'Azur51705.0
+Menton06Provence-Alpes-Côte d'Azur28942.0
+Nice06Provence-Alpes-Côte d'Azur345998.0
+Saint-Laurent-du-Var06Provence-Alpes-Côte d'Azur28831.0
+Vallauris06Provence-Alpes-Côte d'Azur26787.0
+Charleville-Mézières08Grand Est48420.0
+Troyes10Grand Est61988.0
+Carcassonne11Occitanie47418.0
+Narbonne11Occitanie55001.0
+Rodez12Occitanie25747.0
+Aix-en-Provence13Provence-Alpes-Côte d'Azur146385.0
+Arles13Provence-Alpes-Côte d'Azur53807.0
+Aubagne13Provence-Alpes-Côte d'Azur45711.0
+La Ciotat13Provence-Alpes-Côte d'Azur35758.0
+Istres13Provence-Alpes-Côte d'Azur44248.0
+Marignane13Provence-Alpes-Côte d'Azur33949.0
+Marseille13Provence-Alpes-Côte d'Azur870018.0
+Martigues13Provence-Alpes-Côte d'Azur49310.0
+Miramas13Provence-Alpes-Côte d'Azur26217.0
+Salon-de-Provence13Provence-Alpes-Côte d'Azur46225.0
+Vitrolles13Provence-Alpes-Côte d'Azur34301.0
+Caen14Normandie108461.0
+Aurillac15Auvergne-Rhône-Alpes27659.0
+Angoulême16Nouvelle-Aquitaine44629.0
+La Rochelle17Nouvelle-Aquitaine78623.0
+Saintes17Nouvelle-Aquitaine26890.0
+Bourges18Centre-Val de Loire67841.0
+Vierzon18Centre-Val de Loire27036.0
+Brive-la-Gaillarde19Nouvelle-Aquitaine48333.0
+Ajaccio2ACorse70063.0
+Bastia2BCorse45596.0
+Dijon21Bourgogne-Franche-Comté159031.0
+Saint-Brieuc22Bretagne47058.0
+Bergerac24Nouvelle-Aquitaine28166.0
+Périgueux24Nouvelle-Aquitaine31505.0
+Besançon25Bourgogne-Franche-Comté120107.0
+Montbéliard25Bourgogne-Franche-Comté26015.0
+Montélimar26Auvergne-Rhône-Alpes39924.0
+Romans-sur-Isère26Auvergne-Rhône-Alpes34095.0
+Valence26Auvergne-Rhône-Alpes64322.0
+Évreux27Normandie51560.0
+Chartres28Centre-Val de Loire40195.0
+Dreux28Centre-Val de Loire31575.0
+Brest29Bretagne142629.0
+Quimper29Bretagne66743.0
+Alès30Occitanie41129.0
+Nîmes30Occitanie154196.0
+Colomiers31Occitanie39200.0
+Muret31Occitanie25961.0
+Toulouse31Occitanie482738.0
+Tournefeuille31Occitanie27008.0
+Bègles33Nouvelle-Aquitaine28092.0
+Bordeaux33Nouvelle-Aquitaine256045.0
+Gradignan33Nouvelle-Aquitaine26029.0
+Libourne33Nouvelle-Aquitaine25491.0
+Mérignac33Nouvelle-Aquitaine71203.0
+Pessac33Nouvelle-Aquitaine62737.0
+Saint-Médard-en-Jalles33Nouvelle-Aquitaine31576.0
+Talence33Nouvelle-Aquitaine44040.0
+La Teste-de-Buch33Nouvelle-Aquitaine26525.0
+Villenave-d'Ornon33Nouvelle-Aquitaine33091.0
+Agde34Occitanie28120.0
+Béziers34Occitanie77894.0
+Lunel34Occitanie26263.0
+Montpellier34Occitanie286098.0
+Sète34Occitanie44271.0
+Rennes35Bretagne222104.0
+Saint-Malo35Bretagne47528.0
+Châteauroux36Centre-Val de Loire45780.0
+Joué-lès-Tours37Centre-Val de Loire37974.0
+Tours37Centre-Val de Loire139963.0
+Bourgoin-Jallieu38Auvergne-Rhône-Alpes28399.0
+Échirolles38Auvergne-Rhône-Alpes36143.0
+Grenoble38Auvergne-Rhône-Alpes160836.0
+Saint-Martin-d'Hères38Auvergne-Rhône-Alpes38974.0
+Vienne38Auvergne-Rhône-Alpes30178.0
+Mont-de-Marsan40Nouvelle-Aquitaine31517.0
+Blois41Centre-Val de Loire47524.0
+Roanne42Auvergne-Rhône-Alpes35913.0
+Saint-Chamond42Auvergne-Rhône-Alpes35969.0
+Saint-Étienne42Auvergne-Rhône-Alpes174298.0
+Nantes44Pays de la Loire314611.0
+Orvault44Pays de la Loire26618.0
+Rezé44Pays de la Loire41808.0
+Saint-Herblain44Pays de la Loire47502.0
+Saint-Nazaire44Pays de la Loire72295.0
+Saint-Sébastien-sur-Loire44Pays de la Loire27591.0
+Orléans45Centre-Val de Loire118102.0
+Agen47Nouvelle-Aquitaine34565.0
+Angers49Pays de la Loire155543.0
+Cholet49Pays de la Loire55772.0
+Saumur49Pays de la Loire28554.0
+Sèvremoine49Pays de la Loire26239.0
+Cherbourg-en-Cotentin50Normandie82578.0
+Châlons-en-Champagne51Grand Est46288.0
+Reims51Grand Est187074.0
+Saint-Dizier52Grand Est25666.0
+Laval53Pays de la Loire52359.0
+Nancy54Grand Est106953.0
+Vandœuvre-lès-Nancy54Grand Est30502.0
+Lorient56Bretagne58789.0
+Vannes56Bretagne55573.0
+Metz57Grand Est119856.0
+Thionville57Grand Est41396.0
+Nevers58Bourgogne-Franche-Comté34799.0
+Armentières59Hauts-de-France25373.0
+Cambrai59Hauts-de-France33349.0
+Douai59Hauts-de-France40860.0
+Dunkerque59Hauts-de-France89485.0
+Lambersart59Hauts-de-France28027.0
+Lille59Hauts-de-France236782.0
+Marcq-en-Barœul59Hauts-de-France39697.0
+Maubeuge59Hauts-de-France29995.0
+Roubaix59Hauts-de-France96953.0
+Tourcoing59Hauts-de-France98170.0
+Valenciennes59Hauts-de-France44509.0
+Villeneuve-d'Ascq59Hauts-de-France63085.0
+Wattrelos59Hauts-de-France41570.0
+Beauvais60Hauts-de-France57548.0
+Compiègne60Hauts-de-France41660.0
+Creil60Hauts-de-France36091.0
+Alençon61Normandie27221.0
+Arras62Hauts-de-France41973.0
+Béthune62Hauts-de-France25753.0
+Boulogne-sur-Mer62Hauts-de-France42293.0
+Calais62Hauts-de-France75719.0
+Hénin-Beaumont62Hauts-de-France26260.0
+Lens62Hauts-de-France31080.0
+Liévin62Hauts-de-France31337.0
+Clermont-Ferrand63Auvergne-Rhône-Alpes146112.0
+Anglet64Nouvelle-Aquitaine39995.0
+Bayonne64Nouvelle-Aquitaine51943.0
+Biarritz64Nouvelle-Aquitaine25518.0
+Pau64Nouvelle-Aquitaine79022.0
+Tarbes65Occitanie41862.0
+Perpignan66Occitanie123602.0
+Haguenau67Grand Est35024.0
+Illkirch-Graffenstaden67Grand Est27505.0
+Schiltigheim67Grand Est32024.0
+Strasbourg67Grand Est283515.0
+Colmar68Grand Est71445.0
+Mulhouse68Grand Est110468.0
+Bron69Auvergne-Rhône-Alpes41589.0
+Caluire-et-Cuire69Auvergne-Rhône-Alpes43546.0
+Décines-Charpieu69Auvergne-Rhône-Alpes28249.0
+Lyon 1er Arrondissement69Auvergne-Rhône-Alpes30423.0
+Lyon 2e Arrondissement69Auvergne-Rhône-Alpes30857.0
+Lyon 3e Arrondissement69Auvergne-Rhône-Alpes103506.0
+Lyon 4e Arrondissement69Auvergne-Rhône-Alpes36524.0
+Lyon 5e Arrondissement69Auvergne-Rhône-Alpes49998.0
+Lyon 6e Arrondissement69Auvergne-Rhône-Alpes52282.0
+Lyon 7e Arrondissement69Auvergne-Rhône-Alpes82651.0
+Lyon 8e Arrondissement69Auvergne-Rhône-Alpes85610.0
+Lyon 9e Arrondissement69Auvergne-Rhône-Alpes51313.0
+Meyzieu69Auvergne-Rhône-Alpes33351.0
+Oullins69Auvergne-Rhône-Alpes26838.0
+Rillieux-la-Pape69Auvergne-Rhône-Alpes30275.0
+Saint-Priest69Auvergne-Rhône-Alpes46153.0
+Vaulx-en-Velin69Auvergne-Rhône-Alpes48906.0
+Vénissieux69Auvergne-Rhône-Alpes65822.0
+Villefranche-sur-Saône69Auvergne-Rhône-Alpes37783.0
+Villeurbanne69Auvergne-Rhône-Alpes150375.0
+Chalon-sur-Saône71Bourgogne-Franche-Comté47085.0
+Mâcon71Bourgogne-Franche-Comté34448.0
+Le Mans72Pays de la Loire146804.0
+Aix-les-Bains73Auvergne-Rhône-Alpes30377.0
+Chambéry73Auvergne-Rhône-Alpes60872.0
+Annecy74Auvergne-Rhône-Alpes130257.0
+Annemasse74Auvergne-Rhône-Alpes35461.0
+Thonon-les-Bains74Auvergne-Rhône-Alpes36296.0
+Paris75Île-de-France2210875.0
+Dieppe76Normandie30588.0
+Le Grand-Quevilly76Normandie26175.0
+Le Havre76Normandie172769.0
+Rouen76Normandie112596.0
+Saint-Étienne-du-Rouvray76Normandie29180.0
+Sotteville-lès-Rouen76Normandie29766.0
+Bussy-Saint-Georges77Île-de-France27299.0
+Chelles77Île-de-France54682.0
+Meaux77Île-de-France56249.0
+Melun77Île-de-France41183.0
+Pontault-Combault77Île-de-France38587.0
+Savigny-le-Temple77Île-de-France30352.0
+Villeparisis77Île-de-France26507.0
+Chatou78Île-de-France31653.0
+Le Chesnay78Île-de-France28558.0
+Conflans-Sainte-Honorine78Île-de-France36058.0
+Élancourt78Île-de-France25829.0
+Guyancourt78Île-de-France28839.0
+Houilles78Île-de-France32064.0
+Mantes-la-Jolie78Île-de-France44231.0
+Montigny-le-Bretonneux78Île-de-France33535.0
+Les Mureaux78Île-de-France32777.0
+Plaisir78Île-de-France32128.0
+Poissy78Île-de-France37524.0
+Rambouillet78Île-de-France26781.0
+Saint-Germain-en-Laye78Île-de-France41749.0
+Sartrouville78Île-de-France53237.0
+Trappes78Île-de-France32931.0
+Versailles78Île-de-France87315.0
+Niort79Nouvelle-Aquitaine61044.0
+Amiens80Hauts-de-France136998.0
+Albi81Occitanie51151.0
+Castres81Occitanie42923.0
+Montauban82Occitanie61978.0
+Draguignan83Provence-Alpes-Côte d'Azur40928.0
+Fréjus83Provence-Alpes-Côte d'Azur54023.0
+La Garde83Provence-Alpes-Côte d'Azur25645.0
+Hyères83Provence-Alpes-Côte d'Azur56799.0
+Saint-Raphaël83Provence-Alpes-Côte d'Azur35826.0
+La Seyne-sur-Mer83Provence-Alpes-Côte d'Azur65386.0
+Six-Fours-les-Plages83Provence-Alpes-Côte d'Azur33904.0
+Toulon83Provence-Alpes-Côte d'Azur171643.0
+Avignon84Provence-Alpes-Côte d'Azur94200.0
+Carpentras84Provence-Alpes-Côte d'Azur29498.0
+Cavaillon84Provence-Alpes-Côte d'Azur26985.0
+Orange84Provence-Alpes-Côte d'Azur29856.0
+La Roche-sur-Yon85Pays de la Loire56991.0
+Châtellerault86Nouvelle-Aquitaine32887.0
+Poitiers86Nouvelle-Aquitaine90590.0
+Limoges87Nouvelle-Aquitaine135140.0
+Épinal88Grand Est33454.0
+Auxerre89Bourgogne-Franche-Comté36804.0
+Sens89Bourgogne-Franche-Comté26688.0
+Belfort90Bourgogne-Franche-Comté49926.0
+Athis-Mons91Île-de-France34065.0
+Brétigny-sur-Orge91Île-de-France26702.0
+Brunoy91Île-de-France26520.0
+Corbeil-Essonnes91Île-de-France51682.0
+Draveil91Île-de-France29558.0
+Évry91Île-de-France55425.0
+Grigny91Île-de-France29118.0
+Massy91Île-de-France50549.0
+Palaiseau91Île-de-France34954.0
+Ris-Orangis91Île-de-France29040.0
+Sainte-Geneviève-des-Bois91Île-de-France36219.0
+Savigny-sur-Orge91Île-de-France36677.0
+Les Ulis91Île-de-France25031.0
+Vigneux-sur-Seine91Île-de-France31488.0
+Viry-Châtillon91Île-de-France30962.0
+Yerres91Île-de-France29132.0
+Antony92Île-de-France62989.0
+Asnières-sur-Seine92Île-de-France86678.0
+Bagneux92Île-de-France39977.0
+Bois-Colombes92Île-de-France28607.0
+Boulogne-Billancourt92Île-de-France120943.0
+Châtenay-Malabry92Île-de-France33413.0
+Châtillon92Île-de-France37132.0
+Clamart92Île-de-France53099.0
+Clichy92Île-de-France60746.0
+Colombes92Île-de-France86050.0
+Courbevoie92Île-de-France82351.0
+La Garenne-Colombes92Île-de-France29503.0
+Gennevilliers92Île-de-France46939.0
+Issy-les-Moulineaux92Île-de-France69231.0
+Levallois-Perret92Île-de-France64028.0
+Malakoff92Île-de-France30286.0
+Meudon92Île-de-France46014.0
+Montrouge92Île-de-France49372.0
+Nanterre92Île-de-France96321.0
+Neuilly-sur-Seine92Île-de-France61501.0
+Le Plessis-Robinson92Île-de-France29192.0
+Puteaux92Île-de-France44941.0
+Rueil-Malmaison92Île-de-France79783.0
+Saint-Cloud92Île-de-France30797.0
+Suresnes92Île-de-France49145.0
+Vanves92Île-de-France28148.0
+Aubervilliers93Île-de-France86533.0
+Aulnay-sous-Bois93Île-de-France85214.0
+Bagnolet93Île-de-France36047.0
+Le Blanc-Mesnil93Île-de-France56346.0
+Bobigny93Île-de-France52633.0
+Bondy93Île-de-France53416.0
+Clichy-sous-Bois93Île-de-France29978.0
+La Courneuve93Île-de-France42712.0
+Drancy93Île-de-France70883.0
+Épinay-sur-Seine93Île-de-France55754.0
+Gagny93Île-de-France39391.0
+Livry-Gargan93Île-de-France44721.0
+Montfermeil93Île-de-France26262.0
+Montreuil93Île-de-France109235.0
+Neuilly-sur-Marne93Île-de-France34859.0
+Noisy-le-Grand93Île-de-France67086.0
+Noisy-le-Sec93Île-de-France43693.0
+Pantin93Île-de-France55585.0
+Pierrefitte-sur-Seine93Île-de-France29728.0
+Romainville93Île-de-France26640.0
+Rosny-sous-Bois93Île-de-France45663.0
+Saint-Denis93Île-de-France112309.0
+Saint-Ouen93Île-de-France49949.0
+Sevran93Île-de-France50888.0
+Stains93Île-de-France39776.0
+Tremblay-en-France93Île-de-France35866.0
+Villemomble93Île-de-France30227.0
+Villepinte93Île-de-France36809.0
+Alfortville94Île-de-France44136.0
+Cachan94Île-de-France30524.0
+Champigny-sur-Marne94Île-de-France77883.0
+Charenton-le-Pont94Île-de-France30793.0
+Choisy-le-Roi94Île-de-France44781.0
+Créteil94Île-de-France90052.0
+Fontenay-sous-Bois94Île-de-France53968.0
+Fresnes94Île-de-France27556.0
+L' Haÿ-les-Roses94Île-de-France31416.0
+Ivry-sur-Seine94Île-de-France61099.0
+Le Kremlin-Bicêtre94Île-de-France25422.0
+Limeil-Brévannes94Île-de-France26901.0
+Maisons-Alfort94Île-de-France55816.0
+Nogent-sur-Marne94Île-de-France32195.0
+Le Perreux-sur-Marne94Île-de-France34017.0
+Saint-Maur-des-Fossés94Île-de-France75833.0
+Sucy-en-Brie94Île-de-France26575.0
+Thiais94Île-de-France29295.0
+Villejuif94Île-de-France55805.0
+Villeneuve-Saint-Georges94Île-de-France33135.0
+Villiers-sur-Marne94Île-de-France29407.0
+Vincennes94Île-de-France50300.0
+Vitry-sur-Seine94Île-de-France93317.0
+Argenteuil95Île-de-France112064.0
+Bezons95Île-de-France29216.0
+Cergy95Île-de-France64451.0
+Eaubonne95Île-de-France25514.0
+Ermont95Île-de-France29400.0
+Franconville95Île-de-France36349.0
+Garges-lès-Gonesse95Île-de-France42821.0
+Gonesse95Île-de-France26556.0
+Goussainville95Île-de-France31167.0
+Herblay95Île-de-France29614.0
+Pontoise95Île-de-France31880.0
+Sannois95Île-de-France27118.0
+Sarcelles95Île-de-France58332.0
+Taverny95Île-de-France26541.0
+Villiers-le-Bel95Île-de-France27519.0
+Les Abymes971Guadeloupe54818.0
+Baie-Mahault971Guadeloupe31338.0
+Le Gosier971Guadeloupe27023.0
+Fort-de-France972Martinique82030.0
+Le Lamentin972Martinique40920.0
+Cayenne973Guyane60947.0
+Kourou973Guyane26726.0
+Matoury973Guyane32768.0
+Remire-Montjoly973Guyane26170.0
+Saint-Laurent-du-Maroni973Guyane44130.0
+Le Port974La Réunion35141.0
+La Possession974La Réunion33337.0
+Saint-André974La Réunion56088.0
+Saint-Benoît974La Réunion38466.0
+Saint-Denis974La Réunion149337.0
+Saint-Joseph974La Réunion38167.0
+Saint-Leu974La Réunion34160.0
+Saint-Louis974La Réunion53832.0
+Saint-Paul974La Réunion106920.0
+Saint-Pierre974La Réunion85059.0
+Sainte-Marie974La Réunion33587.0
+Le Tampon974La Réunion78366.0

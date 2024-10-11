@@ -13,6 +13,22 @@ public class Ville {
         this.populationTotale = populationTotale;
     }
 
+    public String getNom() {
+        return nom;
+    }
+
+    public String getCodeDepartement() {
+        return codeDepartement;
+    }
+
+    public String getNomRegion() {
+        return nomRegion;
+    }
+
+    public Double getPopulationTotale() {
+        return populationTotale;
+    }
+
     @Override
     public String toString() {
         return "Ville " +

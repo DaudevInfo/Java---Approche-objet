@@ -16,33 +16,27 @@ public class LectureFichier {
         ArrayList <String> listeLignesSortie = new ArrayList<>();
         Path pathCible = Paths.get("C:/Dev/Code/Java - Approche objet/ville25000.csv");
         ArrayList <Ville> listeVille = new ArrayList<>();
-        ArrayList <String> ligneUn = new ArrayList<>() ;
-        ligneUn.add("Nom de la ville , Code Département, nom Region, Population totale");
+        listeLignesSortie.add("Nom de la ville , Code Département, nom Region, Population totale");
 
         // Exercice Lire Fichier
         // for(String ligne : listeLignes) {
             //System.out.println(ligne);
         //}
-
+        // On supprime la première ligne du fichier
+        listeLignes.remove(0);
 
 
         // Exercice  LireFichierAvecInstanciation
-        for (int i =10; i < listeLignes.size(); i++) {
-            if (i>0 )
-            {
-                String ligne = listeLignes.get(i);
-                String[] tokens = ligne.split(";");
-                double nbHabitants =  Double.parseDouble(tokens[7].replaceAll(" ",""));
-                if (nbHabitants > 25000) {
-                    listeVille.add(new Ville(tokens[6], tokens[2], tokens[1], nbHabitants));
-                    listeLignesSortie.add(tokens[6]+ tokens[2]+ tokens[1]+ nbHabitants);
-                }
+        for (String ligne : listeLignes) {
+            String[] tokens = ligne.split(";");
+            double nbHabitants =  Double.parseDouble(tokens[9].replaceAll(" ",""));
+            if (nbHabitants > 25000) {
+                listeVille.add(new Ville(tokens[6], tokens[2], tokens[1], nbHabitants));
+                listeLignesSortie.add(tokens[6]+";"+ tokens[2]+";" + tokens[1]+ ";"+ nbHabitants);
             }
         }
         System.out.println(listeVille);
-
-        Files.write(pathCible, ligneUn);
-       Files.write(pathCible, listeLignesSortie, StandardOpenOption.APPEND);
+        Files.write(pathCible, listeLignesSortie, StandardOpenOption.APPEND);
     }
 }
 

@@ -1,12 +1,16 @@
 package listes;
 
+import java.util.ArrayList;
+
 public class Ville implements Comparable <Ville>{
     private String nomVille;
     private int nbHabitant;
 
+
     public Ville(String nomVille, int nbHabitant) {
         this.nomVille = nomVille;
         this.nbHabitant = nbHabitant;
+
     }
 
     public int getNbHabitant() {
