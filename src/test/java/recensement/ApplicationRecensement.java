@@ -50,13 +50,13 @@ public class ApplicationRecensement {
             System.out.println("- 8. Afficher les 10 villes les plus peuplées de France\n");
             System.out.println("- 9. Sortir");
 
-            switch (choix){
+          /*  switch (choix){
                 case 1:
                     RecherchePopulationVille recherche = new RecherchePopulationVille();
                     recherche.traiter(recensement, scanner);
                     break;
 
-
+*/
             }
 
     }
