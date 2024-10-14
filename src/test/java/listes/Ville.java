@@ -21,6 +21,15 @@ public class Ville implements Comparable <Ville>{
         return nomVille;
     }
 
+    @Override
+    public boolean equals(Object obj) {
+        if (!(obj instanceof Ville)) {
+            return false;
+        }
+        Ville other = (Ville) obj;
+        return (nomVille.equals(other.getNomVille()) && (other.nbHabitant == nbHabitant));
+    }
+
     public void setNomVilleMajuscule() {
         this.nomVille = this.nomVille.toUpperCase();
     }

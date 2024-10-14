@@ -36,9 +36,10 @@ public class ApplicationRecensement {
             recensEncours.SetAjoutVille(coderegionLu,elt[1],codedeptLu,elt[3],codeCommuneLu, elt[6], populationCommune);
 
         }
+        System.out.println(recensEncours);
 
-        while (choix == 9 )
-        {
+
+        while (choix != 9 ) {
             System.out.println(" Menu");
             System.out.println("- 1. Population d’une ville donnée");
             System.out.println("- 2. Population d’un département donné");
@@ -47,17 +48,16 @@ public class ApplicationRecensement {
             System.out.println("- 5. Afficher les 10 départements les plus peuplés");
             System.out.println("- 6. Afficher les 10 villes les plus peuplées d’un département");
             System.out.println("- 7. Afficher les 10 villes les plus peuplées d’une région");
-            System.out.println("- 8. Afficher les 10 villes les plus peuplées de France\n");
+            System.out.println("- 8. Afficher les 10 villes les plus peuplées de France");
             System.out.println("- 9. Sortir");
-
-          /*  switch (choix){
+            choix = scanner.nextInt();
+            switch (choix) {
                 case 1:
                     RecherchePopulationVille recherche = new RecherchePopulationVille();
-                    recherche.traiter(recensement, scanner);
+                    recherche.traiter(recensEncours, scanner);
                     break;
 
-*/
             }
-
+        }
     }
 }

@@ -10,10 +10,7 @@ import static java.util.Locale.FRANCE;
 
 public class TestCalendar {
     public static void main(String[] args) {
-        Locale francais = FRANCE;
-        Locale chinois = CHINESE;
-        Locale russe = new Locale("ru");
-
+        Locale russe = Locale.of("Ru");
         Calendar cal = Calendar.getInstance();
         Date dateJour = cal.getTime();
         cal.set(2016,4,19,23,59,30);
@@ -21,9 +18,9 @@ public class TestCalendar {
         SimpleDateFormat formateur = new SimpleDateFormat("dd/MM/yyyy");
         SimpleDateFormat formateur2 = new SimpleDateFormat("dd/MM/yyyy HH:mm:ss");
 
-        SimpleDateFormat formateurF = new SimpleDateFormat(" EEEE dd MMMM yyyy",francais);
+        SimpleDateFormat formateurF = new SimpleDateFormat(" EEEE dd MMMM yyyy",FRANCE);
         SimpleDateFormat formateurR = new SimpleDateFormat(" EEEE dd MMMM yyyy",russe);
-        SimpleDateFormat formateurC = new SimpleDateFormat(" EEEE dd MMMM yyyy",chinois);
+        SimpleDateFormat formateurC = new SimpleDateFormat(" EEEE dd MMMM yyyy",CHINESE);
 
         System.out.println(formateur.format(date2));
         System.out.println(formateur2.format(dateJour));
