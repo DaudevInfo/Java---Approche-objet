@@ -1,5 +1,6 @@
 package banques.entites;
 
+
 public class CompteTaux extends Compte{
     double tauxRemenuration;
 

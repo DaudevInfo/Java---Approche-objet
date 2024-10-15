@@ -1,11 +1,11 @@
 package recensement;
 
 public class Region {
-    private int codeRegion;
+    private String codeRegion;
     private String nomRegion;
     private int populationRegion;
 
-    public Region(int codeRegion, String nomRegion, int populationRegion ) {
+    public Region(String codeRegion, String nomRegion, int populationRegion ) {
         this.codeRegion = codeRegion;
         this.populationRegion = populationRegion;
         this.nomRegion = nomRegion;
@@ -15,7 +15,17 @@ public class Region {
         return populationRegion;
     }
 
+    public String getCodeRegion() {
+        return codeRegion;
+    }
+
+    public String getNomRegion() {
+        return nomRegion;
+    }
+
     public void setAjoutPopulation(int populationRegion) {
+
         this.populationRegion += populationRegion;
+        System.out.println("Nom région " + nomRegion + "Nbr : "+ this.populationRegion);
     }
 }

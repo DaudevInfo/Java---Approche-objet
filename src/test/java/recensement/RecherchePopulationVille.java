@@ -15,7 +15,7 @@ public class RecherchePopulationVille extends MenuService{
         if (population == 0) {
             System.out.println("Ville non trouvée");
         } else {
-            System.out.println("Population : "+ population );
+            System.out.println("Population de : "+nomVille + " - Population : " + population );
         }
     }
 }

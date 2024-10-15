@@ -29,15 +29,13 @@ public class ApplicationRecensement {
         for (String ligne : listeLignes) {
 
             String[] elt = ligne.split(";");
-            Integer coderegionLu = Integer.parseInt(elt[0].replaceAll(" ", ""));
+            String coderegionLu = elt[0].replaceAll(" ", "");
             String codedeptLu = elt[2].replaceAll(" ", "");
-            Integer codeCommuneLu = Integer.parseInt(elt[5].replaceAll(" ", ""));
+            String codeCommuneLu = elt[5].replaceAll(" ", "");
             Integer populationCommune = Integer.parseInt(elt[9].replaceAll(" ", ""));
-            recensEncours.SetAjoutVille(coderegionLu,elt[1],codedeptLu,elt[3],codeCommuneLu, elt[6], populationCommune);
+            recensEncours.SetAjoutVille(coderegionLu,elt[1],codedeptLu,codeCommuneLu, elt[6], populationCommune);
 
         }
-        System.out.println(recensEncours);
-
 
         while (choix != 9 ) {
             System.out.println(" Menu");
@@ -51,10 +49,19 @@ public class ApplicationRecensement {
             System.out.println("- 8. Afficher les 10 villes les plus peuplées de France");
             System.out.println("- 9. Sortir");
             choix = scanner.nextInt();
+
             switch (choix) {
                 case 1:
                     RecherchePopulationVille recherche = new RecherchePopulationVille();
                     recherche.traiter(recensEncours, scanner);
+                    break;
+                case 2:
+                    RechercherPopulationDepartement recherche2 = new RechercherPopulationDepartement();
+                    recherche2.traiter(recensEncours, scanner);
+                    break;
+                case 3:
+                    RechercherPopulationRegion recherche3 = new RechercherPopulationRegion();
+                    recherche3.traiter(recensEncours, scanner);
                     break;
 
             }

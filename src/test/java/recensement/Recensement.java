@@ -4,9 +4,9 @@ import java.util.HashMap;
 import java.util.Set;
 
 public class Recensement {
-    private HashMap <Integer, Ville> listeVille ;
+    private HashMap <String, Ville> listeVille ;
     private HashMap <String, Departement> listeDept ;
-    private HashMap <Integer, Region> listeRegion;
+    private HashMap <String, Region> listeRegion;
 
     public Recensement() {
         this.listeDept = new HashMap<>();
@@ -22,11 +22,12 @@ public class Recensement {
     - Si le dpt n'existe pas on le crée dans la liste des villes sinon on cumule le nbre d'habitants
  */
 
-    public void SetAjoutVille(Integer codeRegion, String nomRegion, String codeDepartement, String nomDepartement , Integer codeCommune, String nomCommune, Integer populationCommune) {
+    public void SetAjoutVille(String codeRegion, String nomRegion, String codeDepartement,  String codeCommune, String nomCommune, Integer populationCommune) {
         Departement departementLu = null;
         Ville villeLu = null ;
         Region regionLu = null;
 
+        // On récupère region, ville et département s'ils existent
         if (listeRegion!= null) {
             regionLu = listeRegion.get(codeRegion);
         }
@@ -37,43 +38,60 @@ public class Recensement {
             villeLu =  listeVille.get(codeCommune);
         }
 
-        System.out.println(regionLu);
-        System.out.println(departementLu);
-        System.out.println(villeLu);
 
         if (villeLu == null) {
-            if (departementLu != null) {
+
+            if (departementLu != null) { // Département et région existent, on incrémente les compteurs habitants
                 regionLu.setAjoutPopulation(populationCommune);
                 departementLu.setAjoutPopulation(populationCommune);
+                System.out.println(" region "+ regionLu + "pop "+ populationCommune);
             } else {
-                departementLu = listeDept.put(codeDepartement, new Departement(codeDepartement, nomDepartement, populationCommune));
-                System.out.println("Création de département" +nomDepartement);
+                // On crée l'occurrence pour ce dpt
+                departementLu = listeDept.put(codeDepartement, new Departement(codeDepartement, populationCommune));
+
                 if (regionLu == null) {
+                    // On crée l'occurrence pour cette région
                     regionLu = listeRegion.put(codeRegion, new Region(codeRegion, nomRegion, populationCommune));
-                    System.out.println("Création de région :" + nomRegion);
-                } else {
+                } else { // La région existe, on incrémente le compteur habitant
                     regionLu.setAjoutPopulation(populationCommune);
                 }
             }
+            // On crée l'occurrence pour la ville
             listeVille.put(codeCommune, new Ville(regionLu, departementLu, codeCommune, nomCommune, populationCommune));
-            System.out.println("Création de ville"+ nomCommune);
-        }
+            }
     }
 
     public int getPopulationVille (String nomVille) {
-        Set<Integer> listeCommune = listeVille.keySet();
-        for (Integer code : listeCommune) {
-            if (listeVille.get(code).equals(nomVille)) return listeVille.get(code).populationTotale;
+
+        Set<String> listeCommune = listeVille.keySet();
+
+        for (String code : listeCommune) {
+            if (listeVille.get(code).getNomCommune().equals(nomVille))
+                return listeVille.get(code).getPopulationTotale();
         }
         return 0;
     }
 
-    @Override
-    public String toString() {
-        return "Recensement{" +
-                "listeVille=" + listeVille +
-                ", listeDept=" + listeDept +
-                ", listeRegion=" + listeRegion +
-                '}';
+    public int getPopulationDpt (String nomDpt) {
+
+        Set<String> liste = listeDept.keySet();
+
+        for (String code : liste) {
+
+            if (listeDept.get(code).getCodeDepartement().equals(nomDpt))
+                return listeDept.get(code).getPopulationDepartement();
+        }
+        return 0;
+    }
+
+    public int getPopulationRegion (String nomRegion) {
+
+        Set<String> liste= listeRegion.keySet();
+
+        for (String code : liste) {
+            if (listeRegion.get(code).getNomRegion().equals(nomRegion))
+                return listeRegion.get(code).getPopulationRegion();
+        }
+        return 0;
     }
 }

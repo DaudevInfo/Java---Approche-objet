@@ -3,6 +3,7 @@ package listes;
 import java.util.ArrayList;
 
 public class Ville implements Comparable <Ville>{
+    /** */
     private String nomVille;
     private int nbHabitant;
 
@@ -16,6 +17,7 @@ public class Ville implements Comparable <Ville>{
     public int getNbHabitant() {
         return nbHabitant;
     }
+
 
     public String getNomVille() {
         return nomVille;
