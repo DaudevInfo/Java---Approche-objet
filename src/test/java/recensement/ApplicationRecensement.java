@@ -25,17 +25,21 @@ public class ApplicationRecensement {
             - Si la région n'existe pas on la crée sinon on cumule le nbre d'habitants
             - Si le dpt n'existe pas on le crée sinon on cumule le nbre d'habitants
          */
+        int i= 0;
         listeLignes.remove(0); // Suppression de la ligne avec les entêtes de colonnes
         for (String ligne : listeLignes) {
 
             String[] elt = ligne.split(";");
-            String coderegionLu = elt[0].replaceAll(" ", "");
-            String codedeptLu = elt[2].replaceAll(" ", "");
-            String codeCommuneLu = elt[5].replaceAll(" ", "");
+            String coderegionLu = elt[0].replaceAll("[^0-9]", "");
+            String codedeptLu = elt[2].replaceAll("[^0-9]", "");
+            String codeCommuneLu = elt[5].replaceAll("[^0-9]", "");
             Integer populationCommune = Integer.parseInt(elt[9].replaceAll(" ", ""));
             recensEncours.SetAjoutVille(coderegionLu,elt[1],codedeptLu,codeCommuneLu, elt[6], populationCommune);
-
+            i++;
+            if (i <1000 ) System.out.println("nbr lignes lues "+i +" Nbr de lignes chargées"+recensEncours.getListeVille().size());
         }
+        System.out.println("nbr lignes lues "+i +" Nbr de lignes chargées"+recensEncours.getListeVille().size());
+        recensEncours.getTotalRegion();
 
         while (choix != 9 ) {
             System.out.println(" Menu");

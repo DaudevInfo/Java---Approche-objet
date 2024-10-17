@@ -26,6 +26,6 @@ public class Region {
     public void setAjoutPopulation(int populationRegion) {
 
         this.populationRegion += populationRegion;
-        System.out.println("Nom région " + nomRegion + "Nbr : "+ this.populationRegion);
+
     }
 }

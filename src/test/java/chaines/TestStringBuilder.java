@@ -4,6 +4,7 @@ public class TestStringBuilder {
     public static void main(String[] args) {
         StringBuilder cumul1 = new StringBuilder();
         String cumul2 = "";
+
         /*
         long debut = System.currentTimeMillis();
 

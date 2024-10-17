@@ -14,7 +14,10 @@ public class Recensement {
         this.listeRegion = new HashMap<>();
     }
 
-    /*
+    public HashMap<String, Ville> getListeVille() {
+        return listeVille;
+    }
+/*
     A chaque demande d'ajout d'une ville, on vérifie l'existence des objets villes, dépt et région
     dans les liste du recensement
     - On ne charge pas les doublons villes
@@ -26,6 +29,7 @@ public class Recensement {
         Departement departementLu = null;
         Ville villeLu = null ;
         Region regionLu = null;
+        String codeCommuneComplet = codeRegion+ codeDepartement+codeCommune;
 
         // On récupère region, ville et département s'ils existent
         if (listeRegion!= null) {
@@ -35,30 +39,33 @@ public class Recensement {
             departementLu = listeDept.get(codeDepartement);
         }
         if (listeVille != null) {
-            villeLu =  listeVille.get(codeCommune);
-        }
 
+            villeLu =  listeVille.get(codeCommuneComplet);
+        }
 
         if (villeLu == null) {
 
             if (departementLu != null) { // Département et région existent, on incrémente les compteurs habitants
                 regionLu.setAjoutPopulation(populationCommune);
                 departementLu.setAjoutPopulation(populationCommune);
-                System.out.println(" region "+ regionLu + "pop "+ populationCommune);
+
             } else {
                 // On crée l'occurrence pour ce dpt
-                departementLu = listeDept.put(codeDepartement, new Departement(codeDepartement, populationCommune));
+                departementLu = new Departement(codeDepartement, populationCommune);
+                listeDept.put(codeDepartement, departementLu);
 
                 if (regionLu == null) {
                     // On crée l'occurrence pour cette région
-                    regionLu = listeRegion.put(codeRegion, new Region(codeRegion, nomRegion, populationCommune));
+                    regionLu = new Region(codeRegion, nomRegion, populationCommune);
+                    listeRegion.put(codeRegion,regionLu );
                 } else { // La région existe, on incrémente le compteur habitant
                     regionLu.setAjoutPopulation(populationCommune);
                 }
             }
-            // On crée l'occurrence pour la ville
-            listeVille.put(codeCommune, new Ville(regionLu, departementLu, codeCommune, nomCommune, populationCommune));
-            }
+                // On crée l'occurrence pour la ville
+                listeVille.put(codeCommuneComplet, new Ville(regionLu, departementLu, codeCommune, nomCommune, populationCommune));
+
+        }
     }
 
     public int getPopulationVille (String nomVille) {
@@ -93,5 +100,16 @@ public class Recensement {
                 return listeRegion.get(code).getPopulationRegion();
         }
         return 0;
+    }
+
+
+    public void getTotalRegion() {
+
+        Set<String> liste= this.listeRegion.keySet();
+
+        for (String code : liste) {
+            System.out.println(listeRegion.get(code).getNomRegion()+ " "+ listeRegion.get(code).getPopulationRegion());
+        }
+
     }
 }
